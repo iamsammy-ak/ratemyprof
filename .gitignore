@@ -1,0 +1,34 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Scraped personnel data — contains real names, never commit
+professors.json
+professors.csv
+teaching_staff_only.json
+teaching_staff_only.csv
+canonical_index.csv
+role_summary.json
+category_exports/
+frontend/public/professors.json
+data/
+*.csv
+
+# Node
+node_modules/
+dist/
+.vite/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
